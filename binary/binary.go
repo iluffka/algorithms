@@ -1,14 +1,12 @@
-package main
+package binary
 
-import "fmt"
-
-func main()  {
+/*func main()  {
 	arr := []int{
 		0,2,333,444,567,1234,
 	}
 	fmt.Println(BinarySearch(arr,567))
 	fmt.Println(BinarySearchRec(arr,567))
-}
+}*/
 
 func BinarySearch(arr []int, element int) int {
 	first := 0
